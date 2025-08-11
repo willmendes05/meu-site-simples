@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Sobre.html">Sobre</a></li>
+        <li><a href="Contato.html">Contatos</a></li>
+      </ul>
+    </nav>
+    <h1 class="nome-topo">Contatos</h1>
+  </header> 
+  <main class="contato">
+    <section class="formulario">
+            <h3 class="comigo">entre em contato comigo:</h3>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="Email" name="Email" placeholder="Digite seu Email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+            
+            <input type="hidden" name="apiKey" value="sf_d4c4hmc3429fekkjfgbdi8l5">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Contato.html">
+            </form>
+      </section>
+  </main>
+  <hr>
+  <footer>
+     <p>Todos os direitos reservados © 2025</p>
+  </footer>
+  
+</body>
+
+</html>

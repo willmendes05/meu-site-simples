@@ -1,0 +1,117 @@
+
+body {
+    background-color: rgb(43, 43, 43);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+a { 
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    }
+
+nav a:hover {
+    color: darkturquoise;
+}
+
+li {
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+  list-style-type: none;  
+  margin: 10px;
+}
+
+li {
+  display: inline-block;
+  font-size: 10px;
+  padding: 10px 20px
+}
+/* fim da pagina inicial. */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid darkturquoise;
+}
+img {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.meu-nome {
+  color: darkturquoise;
+  text-align: center; 
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px;
+    text-align: left;
+}
+/* fim do sobre */
+.contato {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 35vh;
+}
+.nome-topo {
+  color: darkturquoise;
+}
+.formulario {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 45px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: darkturquoise;
+  font-size: 20px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(60, 60, 60);
+  color: darkturquoise;
+}
+form button {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  margin-bottom: 20px;
+  transition: 1.3s;
+} 
+form button:hover {
+  background-color: #00CED1;
+  border-radius: 16px;
+  color: black
+}
+.comigo {
+  color: darkturquoise;
+  font-size: 20px;
+}
+
+ 
