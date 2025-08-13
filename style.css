@@ -29,17 +29,16 @@ li {
   padding: 10px 20px
 }
 /* fim da pagina inicial. */
-img {
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid darkturquoise;
-}
-img {
     display: flex;
     justify-content: center;
     margin: 10px auto;
 }
+
 .meu-nome {
   color: darkturquoise;
   text-align: center; 
@@ -113,5 +112,17 @@ form button:hover {
   color: darkturquoise;
   font-size: 20px;
 }
+footer img {
+    width: 30px;
+    height: 30px;
+}
+.âncora-footer {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: darkturquoise;
+}
+.paragrafo-footer {
+    margin-top: 4px;
+}
 
- 
